@@ -20,7 +20,7 @@
   "scripts": {
     "start": "node ./node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "postinstall": "mklink /d lib/{ios,android} ."
+    "postinstall": "mklink /d 'lib/{ios,android} .'"
   },
   "dependencies": {},
   "peerDependencies": {
